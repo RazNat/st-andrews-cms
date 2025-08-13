@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sermons",
+  "info": {
+    "singularName": "sermon",
+    "pluralName": "sermons",
+    "displayName": "Sermon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "audioUrl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "passage": {
+      "type": "text"
+    }
+  }
+}
