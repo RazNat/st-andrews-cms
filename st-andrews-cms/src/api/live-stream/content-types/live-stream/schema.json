@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "live_streams",
+  "info": {
+    "singularName": "live-stream",
+    "pluralName": "live-streams",
+    "displayName": "Live Stream"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "zoomLink": {
+      "type": "string",
+      "required": true
+    },
+    "scheduledDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "isActive": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "meetingId": {
+      "type": "string"
+    },
+    "passcode": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "string",
+      "default": "10:30 AM"
+    },
+    "endTime": {
+      "type": "string",
+      "default": "11:30 AM"
+    }
+  }
+}
